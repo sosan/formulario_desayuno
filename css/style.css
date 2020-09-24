@@ -1,0 +1,99 @@
+
+/* Tipografía */
+/* Familia Roboto ligth, medium, bold, black, */
+@font-face {
+    font-family: "Roboto_italic";
+    src:
+        url("../font/Roboto-ThinItalic.woff2") format("woff2"),
+        url("../font/Roboto-ThinItalic.woff") format("woff");
+    
+}
+
+@font-face {
+    font-family: "Roboto_italic_bold";
+    src: 
+        url("../font/Roboto-BoldItalic.woff2") format("woff2"),
+        url("../font/Roboto-BoldItalic.woff") format("woff");
+    
+}
+
+@font-face {
+    font-family: "Roboto_regular";
+    src: 
+        url("../font/Roboto-Regular.woff2") format("woff2"),
+        url("../font/Roboto-Regular.woff") format("woff");
+    
+}
+
+@font-face {
+    font-family: "Roboto_medium_normal";
+    src:
+        url("../font/Roboto-Medium.woff2") format("woff2"),
+        url("../font/Roboto-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto_black_italic";
+    src:
+        url("../font/Roboto-BlackItalic.woff2") format("woff2"),
+        url("../font/Roboto-BlackItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto_bold";
+    src: 
+        url("../font/Roboto-Bold.woff2") format("woff2"),
+        url("../font/Roboto-Bold.woff") format("woff");
+    
+}
+
+@font-face {
+    font-family: "Roboto_thin_normal";
+    src: 
+        url("../font/Roboto-Thin.woff2") format("woff2"),
+        url("../font/Roboto-Thin.woff") format("woff");
+    
+}
+
+@font-face {
+    font-family: "Roboto_light_normal";
+    src:
+        url("../font/Roboto-Light.woff2") format("woff2"),
+        url("../font/Roboto-Light.woff") format("woff");
+    
+}
+
+@font-face {
+    font-family: "Roboto_black";
+    src: 
+        url("../font/Roboto-Black.woff2") format("woff2"),
+        url("../font/Roboto-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto_light_italic";
+    src: 
+        url("../font/Roboto-LightItalic.woff2") format("woff2"),
+        url("../font/Roboto-LightItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto_medium_italic";
+    src: 
+        url("../font/Roboto-MediumItalic.woff2") format("woff2"),
+        url("../font/Roboto-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto_normal_italic";
+    src: 
+        url("../font/Roboto-Italic.woff2") format("woff2"),
+        url("../font/Roboto-Italic.woff") format("woff");
+}
+
+/* ******************************** */
+/* Colores */
+/* ******************************** */
+
+
+/* Aqui van las variables */

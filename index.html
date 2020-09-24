@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- <link rel="stylesheet" href="./css/customNormalize.css"> -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    
+    <form name="desayuno" method="post" data-netlify="true" class="formulario">
+        <picture class="imagen">
+        
+            <!-- movil con retina display -->
+            <source srcset="./img/desayuno_movil@1x.jpg 1x, 
+                            ./img/desayuno_movil@2x.jpg 2x,
+                            ./img/desayuno_movil@3x.jpg 3x" 
+                            media="(min-width:320px) and (max-width: 450px)">
+        
+            <!-- ipad -->
+            <source srcset="./img/desayuno_tablet@1x.jpg 1x,
+                            ./img/desayuno_tablet@2x.jpg 2x,
+                            ./img/desayuno_tablet@3x.jpg 3x" media="(min-width:768px) and (max-width: 900px)">
+        
+            <!-- imagen de respaldo en caso de que los demas no se puedan rellenar -->
+            <img src="./img/desayuno_movil@3x.jpg" alt="banner">
+        </picture>
+        <article class="encuesta">
+            <label for="cuantos">Cauntos terrones de azucar te gustan?</label>
+            <input type="number" name="cuantos" id="" min="1" max="10">
+    
+            <label for="">Te gusta que te sirvan cafe como en las pelis?</label>
+            <input type="radio" name="pelis" value="si">Si
+            <input type="radio" name="pelis" value="no">No
+
+        </article>
+
+        <button type="submit">Enviar</button>
+    
+    </form>
+
+
+
+</body>
+</html>
+
