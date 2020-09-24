@@ -15,13 +15,13 @@
     
     
     <form name="desayuno" method="post" data-netlify="true" class="formulario">
-        <picture class="imagen">
+        <picture >
         
             <!-- movil con retina display -->
-            <source srcset="./img/desayuno_movil@1x.jpg 1x, 
+            <!-- <source srcset="./img/desayuno_movil@1x.jpg 1x, 
                             ./img/desayuno_movil@2x.jpg 2x,
                             ./img/desayuno_movil@3x.jpg 3x" 
-                            media="(min-width:320px) and (max-width: 450px)">
+                            media="(min-width:320px) and (max-width: 450px)"> -->
         
             <!-- ipad -->
             <source srcset="./img/desayuno_tablet@1x.jpg 1x,
@@ -29,15 +29,34 @@
                             ./img/desayuno_tablet@3x.jpg 3x" media="(min-width:768px) and (max-width: 900px)">
         
             <!-- imagen de respaldo en caso de que los demas no se puedan rellenar -->
-            <img src="./img/desayuno_movil@3x.jpg" alt="banner">
+            <!-- <img src="./img/desayuno_movil@3x.jpg" alt="banner"> -->
         </picture>
         <article class="encuesta">
-            <label for="cuantos">Cauntos terrones de azucar te gustan?</label>
-            <input type="number" name="cuantos" id="" min="1" max="10">
+            <label for="cuantos">Cauntos terrones de azucar te gustan?
+                <input type="number" name="cuantos" id="" min="1" max="10">
+
+            </label>
     
-            <label for="">Te gusta que te sirvan cafe como en las pelis?</label>
-            <input type="radio" name="pelis" value="si">Si
-            <input type="radio" name="pelis" value="no">No
+            <label for="pelis">Te gusta que te sirvan cafe como en las pelis?
+                <input type="radio" name="pelis" value="si">Si
+                <input type="radio" name="pelis" value="no">No
+
+            </label>
+
+            <label for="edad">Que edad tienes?
+                <input type="number" name="edad" id="" min="1" max="150">
+
+            </label>
+
+            <label for="genero">Genero?
+                <input type="checkbox" name="genero">Hombre
+                <input type="checkbox" name="genero">Mujer
+                <input type="checkbox" name="genero">Otre
+                <input type="checkbox" name="genero">No lo se
+
+
+
+            </label>
 
         </article>
 
